@@ -5,6 +5,8 @@ on:
     branches:
       - main
       - tutorial
+  schedule:
+    - cron: '5 * * * *'
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
